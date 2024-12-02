@@ -36,10 +36,9 @@ Key changes include:
 ### Prerequisites
 
 Ensure you have `pipenv` installed to manage the Python environment.
+```
+pipenv install -r requirements.txt
+Python torch_vertical_FL_train_dropout_clients.py
+```
+You dont have to run the code using the args listed in the code. You can run the code directly using the above command. 
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
