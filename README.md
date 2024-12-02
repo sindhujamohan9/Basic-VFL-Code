@@ -1,22 +1,45 @@
-**Credit**
-The original authors are
-Kang Wei
-Jun Li
-Chuan Ma
-Ming Ding
-Sha Wei
-Fan Wu
-Guihai Chen
-Thilina Ranbaduge
-Corresponding paper can be found here: https://arxiv.org/abs/2202.04309
-Original github repository can be found here: https://github.com/AdamWei-boop/Vertical_FL
+# Vertical Federated Learning with Client Dropout
 
+This repository is a modified version of the original implementation of Vertical Federated Learning (VFL) by Kang Wei et al. Our changes focus on investigating the behavior of VFL under client dropout scenarios.
 
-**Changes from me**
-We intend to use this code for our course project that investigates drop out clients. Hence, I have removed DP and contribution calculation parts. I have also added logic for active clients that are still participating using a variable that can be toggled called “active_clients.”
+## 📄 **Credit**
 
-**To get started:**
-pipenv install -r requirements.txt
-Python torch_vertical_FL_train_dropout_clients.py
+The original implementation was authored by:
 
-You dont have to run the code using the args listed in the code. You can run the code directly using the above command. 
+- Kang Wei  
+- Jun Li  
+- Chuan Ma  
+- Ming Ding  
+- Sha Wei  
+- Fan Wu  
+- Guihai Chen  
+- Thilina Ranbaduge  
+
+The corresponding paper can be found here: [arXiv:2202.04309](https://arxiv.org/abs/2202.04309)  
+The original GitHub repository is available here: [Vertical_FL](https://github.com/AdamWei-boop/Vertical_FL)
+
+## 🛠️ **Changes**
+
+This repository has been modified to suit our course project, which investigates the impact of client dropout in Vertical Federated Learning.  
+Key changes include:
+
+1. **Removed Features**:
+   - Differential Privacy (DP) implementation.
+   - Contribution calculation logic.
+
+2. **Added Features**:
+   - Logic for handling **active clients**.
+   - A toggleable variable named `active_clients` to specify which clients are currently participating in the training process.
+
+## 🚀 **Getting Started**
+
+### Prerequisites
+
+Ensure you have `pipenv` installed to manage the Python environment.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
