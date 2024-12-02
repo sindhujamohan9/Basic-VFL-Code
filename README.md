@@ -1,6 +1,6 @@
 # Vertical Federated Learning with Client Dropout
 
-This repository is a modified version of the original implementation of Vertical Federated Learning (VFL) by Kang Wei et al. Our changes focus on investigating the behavior of VFL under client dropout scenarios.
+This repository is a modified version of the original implementation of Vertical Federated Learning (VFL) by Kang Wei et al. We intend to use this code for our course project that investigates drop out clients in VFL.
 
 ## 📄 **Credit**
 
